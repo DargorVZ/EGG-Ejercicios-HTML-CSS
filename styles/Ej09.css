@@ -1,0 +1,31 @@
+/*
+    Para este apartado vamos a crear 2 listas:
+1) Lista con viñetas con aspectos personalizados a elección.
+2) Lista menú vertical con links a paginas a elección
+*/
+
+#lista1{
+    list-style-image: url(../images/icono-viñeta.png);
+}
+
+#lista2{
+    margin: 0;
+    padding: 0;
+    width: 180px;
+    list-style: none;
+    border: 1px solid #3582ca;
+    border-bottom: none;
+}
+
+#lista2 li{
+    background: skyblue;
+    border-bottom: 1px solid #3582ca;
+    border-top: 1px solid #FFF;
+}
+
+#lista2 li a{
+    color: tomato;
+    display: block;
+    padding: 2em, 0.2em, 5em;
+    text-decoration: none;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 06</title>
+</head>
+<body>
+    <h1>Registrar un Usuario</h1>
+
+    <form action="mailto:dargorvz@gmail.com" method="post" enctype="text/plain">
+
+        <label for="nombre">Nombre del usuario</label><br>
+        <input type="text" name="nombre"><br>
+        
+        <label for="">Contraseña del usuario</label><br>
+        <input type="password"><br>
+        
+        <label for="">Edad del usuario</label><br>
+        <input type="text"><br>
+        
+        <label for="nacimiento" name="Fecha de nacimiento">Fecha de nacimiento</label><br>
+        <input type="date"><br>
+        
+        <p>Sexo del usuario</p><br>
+        <input type="radio" name="sexo" value="Hombre">
+        <label for="sexo">Hombre</label><br>
+        <input type="radio" name="sexo" value="Mujer">
+        <label for="sexo">Mujer</label><br>
+        <input type="radio" name="sexo" value="Prefiero no decir">
+        <label for="sexo">Prefiero no decir</label><br>
+        
+        <label for="nacionalidad">País de Nacimiento del Usuario</label><br>
+        <select name="nacionalidad">
+            <option value="Argentina">Argentina</option>
+            <option value="Brasil">Brasil</option>
+            <option value="Chile">Chile</option>
+            <option value="Perú">Perú</option>
+            <option value="Uruguay">Uruguay</option>
+        </select><br>
+        
+        <input type="submit" value="Enviar" onclick="alert('Enviado Exitosamente')">
+        <input type="reset" value="Borrar" onclick="alert('Eliminado Exitosamente')">
+    </form>
+
+    
+</body>
+</html>

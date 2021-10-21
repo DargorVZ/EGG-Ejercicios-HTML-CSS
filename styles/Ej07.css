@@ -1,0 +1,19 @@
+*{
+    background-color: darkkhaki;
+}
+
+h1{
+    text-align: center;
+    font-family: Verdana;
+}
+
+h2{
+    text-align: center;
+    font-family: fantasy;
+}
+
+p{
+    font-family: monospace;
+    color: indigo;
+    text-align: left;
+}

@@ -1,0 +1,16 @@
+table {
+    text-align: center;
+    font-family: Arial;
+    border-spacing: 0px;
+}
+.row {
+    text-align: left;
+    background-color: #E6F3FF;
+}
+.col {
+    background-image: url(../images/fondo_gris.gif);
+    
+}
+.amarillo {
+    background-color: #FFFFCC;
+}
